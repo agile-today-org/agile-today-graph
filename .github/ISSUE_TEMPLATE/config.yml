@@ -1,0 +1,8 @@
+blank_issues_enabled: false
+contact_links:
+  - name: A gate verdict or a project route looks wrong
+    url: mailto:support@agile-today.org
+    about: Verdicts come from the decision rules, which are not in this repository. Send the tool call and its receipt hash.
+  - name: Use the graph from an AI agent
+    url: https://agile-today.org/en/mcp
+    about: The Agile Today MCP server answers with project routes, gate verdicts and plan checks.

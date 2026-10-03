@@ -1,0 +1,24 @@
+name: Content correction
+description: A wrong link, source, description or translation in the graph.
+title: "[content] "
+body:
+  - type: input
+    id: ids
+    attributes:
+      label: Node or link id
+      description: For example a.rollback_plan or L0421.
+    validations:
+      required: true
+  - type: textarea
+    id: wrong
+    attributes:
+      label: What is wrong
+    validations:
+      required: true
+  - type: textarea
+    id: right
+    attributes:
+      label: What it should be
+      description: With a source when you have one (a standard and its section, or an author and a publication). Do not paste text from paid standards.
+    validations:
+      required: true
