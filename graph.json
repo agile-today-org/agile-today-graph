@@ -1,12 +1,12 @@
 {
-  "version": "2.3.1",
-  "released": "2026-10-03",
-  "content_hash": "43a51781ec9202f0",
+  "version": "2.3.2",
+  "released": "2026-10-05",
+  "content_hash": "f1db1e72ac1925ce",
   "layer": "descriptive",
   "license": "Descriptive layer of the Agile Today methodology graph by Oleg Vakarchuk, https://agile-today.org, licensed under CC BY 4.0 (https://creativecommons.org/licenses/by/4.0/); also at https://github.com/agile-today-org/agile-today-graph. The decision rules and the engine are not part of this data and are not licensed. The name and the logo of Agile Today are trademarks and are not licensed. Terms: https://agile-today.org/en/terms",
   "counts": {
     "nodes": 425,
-    "edges": 2462
+    "edges": 2461
   },
   "nodes": [
     {
@@ -2679,12 +2679,15 @@
         "ru": "один раз"
       },
       "sch": [
-        "pmbok",
-        "prince2"
+        "pmbok"
       ],
-      "lvl": "A",
-      "src": "PMI, PMBOK® Guide, 8th ed. (2025)",
-      "src_type": "standard"
+      "lvl": "C",
+      "src": "editorial",
+      "src_type": "editorial",
+      "sl": {
+        "en": "editorial",
+        "ru": "Редакция Agile Today"
+      }
     },
     {
       "id": "e.client_kickoff",
@@ -15899,13 +15902,7 @@
       "f": "e.internal_kickoff",
       "t": "belongs_to",
       "to": "s.pmbok",
-      "id": "L0246"
-    },
-    {
-      "f": "e.internal_kickoff",
-      "t": "belongs_to",
-      "to": "s.prince2",
-      "id": "L0247"
+      "id": "L2608"
     },
     {
       "f": "e.internal_kickoff",
@@ -15983,7 +15980,7 @@
       "f": "e.client_kickoff",
       "t": "belongs_to",
       "to": "s.prince2",
-      "id": "L0260"
+      "id": "L2609"
     },
     {
       "f": "e.client_kickoff",
